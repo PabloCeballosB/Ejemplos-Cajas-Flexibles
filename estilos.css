@@ -1,0 +1,213 @@
+*{
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*-------------------------- FLEX DIRECTION --------------------------*/
+#flexdirection{
+  background-color: green;
+  display: flex;
+  width: 45%;
+  margin: auto;
+}
+
+#flexdirection div{
+  width: 100px;
+  height: 50px;
+  flex-direction: row-reverse;
+  background-color: cyan;
+  margin: 10px;
+}
+
+
+/*-------------------------- ORDER --------------------------*/
+#order{
+  background-color: darkred;
+  display: flex;
+  width: 45%;
+  margin: auto;
+}
+
+#order div{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  margin: 10px;
+}
+
+.orderitem{
+  order: 3;
+}
+
+
+/*-------------------------- FLEX GROW --------------------------*/
+#flexgrow
+{
+  background-color: cyan;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+#flexgrow div{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  margin: 10px;
+
+}
+
+.flexitem2{
+	display: flex;
+  flex-grow: 2;
+}
+
+
+/*-------------------------- FLEX WRAP --------------------------*/
+#flexwrap{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  width: 650px;
+  margin: auto;
+  padding: 10px;
+}
+
+#flexwrap div{
+  width: 115px;
+  background-color: yellow;
+  margin: 0px 6px 6px 0px;
+}
+
+
+/*-------------------------- FLEX SHRINK --------------------------*/
+#flexshrink{
+  background-color: brown;
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+
+#flexshrink div{
+  width: 100px;
+  height: 48px;
+  background-color: pink;
+  margin: 10px;
+}
+
+.flexshrinkitems{
+  flex-shrink: 10;
+}
+
+
+/*-------------------------- FLEX FLOW --------------------------*/
+#flexflow{
+  background-color: blue;
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+
+#flexflow div{
+  width: 100px;
+  height: 48px;
+  background-color: green;
+  margin: 10px;
+}
+
+
+/*-------------------------- FLEX BASIS --------------------------*/
+#flexbasis{
+  background-color: magenta;
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+
+#flexbasis div{
+  width: 100px;
+  height: 48px;
+  background-color: cyan;
+  margin: 10px;
+  flex-flow: column row;
+}
+
+.flexbasisitems{
+  flex-basis: 20%;
+}
+
+
+/*-------------------------- JUSTIFY CONTENT --------------------------*/
+.justifycontent{
+  background-color: black;
+  display: flex;
+  width: 800px;
+  margin: auto;
+}
+
+.justifycontent div{
+  width: 100px;
+  height: 48px;
+  background-color: gray;
+  margin: 10px;
+}
+
+/*-------------------------- JUSTIFY CONTENT / FLEX START --------------------------*/
+#flexstart{
+  justify-content: flex-start;
+}
+
+/*-------------------------- JUSTIFY CONTENT / FLEX END --------------------------*/
+#flexend{
+  justify-content: flex-end;
+}
+
+/*-------------------------- JUSTIFY CONTENT / FLEX CENTER --------------------------*/
+#center{
+  justify-content: center;
+}
+
+/*-------------------------- JUSTIFY CONTENT / SPACE BETWEEN --------------------------*/
+#spacebetween{
+  justify-content: space-between;
+}
+
+/*-------------------------- JUSTIFY CONTENT / SPACE AROUND --------------------------*/
+#spacearound{
+  justify-content: space-around;
+}
+
+/*-------------------------- JUSTIFY CONTENT / SPACE EVENLY --------------------------*/
+#spaceevenly{
+  justify-content: space-evenly;
+}
+
+
+
+/*-------------------------- ALIGN SELF --------------------------*/
+#alignself{
+  background-color: gold;
+  display: flex;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+#alignself div{
+  width: 100px;
+  height: 48px;
+  background-color: brown;
+  margin: 10px;
+}
+
+.alignself1{ /*Item 1 y 2 añadiendole Flex-Start*/
+  align-self: flex-start;
+}
+
+.alignself2{ /*Item 3 y 4 añadiendole Flex-End*/
+  align-self: flex-end;
+}
+
+.alignself3{ /*Item 3 añadiendole center*/
+  align-self: center;
+}
